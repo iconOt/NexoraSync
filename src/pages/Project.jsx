@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import DashboardLayout from "../layout/dashboard";
-import DashboardNavbar from "../components/DashboardNavbar";
+import DashboardNavbar from "../components/dashboardnavbar";
 import useAuth from "../hooks/useAuth";
 import { createProject, getProjects, deleteProject, updateProjectStatus } from "../services/projects";
 import { Plus, Trash2, CheckCircle, Clock } from "lucide-react";

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DashboardLayout from "../layout/dashboard";
-import DashboardNavbar from "../components/DashboardNavbar";
-import StatCard from "../components/StatCard";
+import DashboardNavbar from "../components/dashboardnavbar";
+import StatCard from "../components/statcard";
 import { DollarSign, Users, TrendingUp, ShoppingCart, FolderKanban, CheckCircle } from "lucide-react";
 import { getProjectCounts } from "../services/dashboard";
 

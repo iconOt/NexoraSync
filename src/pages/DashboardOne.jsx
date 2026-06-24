@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DashboardLayout from "../layout/dashboard";
-import DashboardNavbar from "../components/DashboardNavbar";
-import StatCard from "../components/StatCard";
+import DashboardNavbar from "../components/dashboardnavbar";
+import StatCard from "../components/statcard";
 import { DollarSign, Users, FolderKanban, CheckCircle } from "lucide-react";
 import useAuth from "../hooks/useAuth";
 import { getDashboardStats } from "../services/dashboard";
@@ -17,7 +17,7 @@ const DashboardOne = () => {
     if (!user) return;
     getDashboardStats(user.id).then((data) => {
       setStats(data);
-      setLoading(false);
+      setLoading(false);zs
     });
   }, [user]);
 

@@ -1,6 +1,6 @@
 import useAuth from "../hooks/useAuth";
 import DashboardLayout from "../layout/dashboard";
-import DashboardNavbar from "../components/DashboardNavbar";
+import DashboardNavbar from "../components/dashboardnavbar";
 
 const Profile = () => {
   const { user } = useAuth();
